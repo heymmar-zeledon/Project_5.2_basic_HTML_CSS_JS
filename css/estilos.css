@@ -59,8 +59,8 @@ footer {
 	border: 2px #605B56;
 	margin: 3px;
 	border-radius: 4px;
-	-webkit-border-radius:;
-	-moz-border-radius:;
-	-ms-border-radius:;
-	-o-border-radius:;
+	-webkit-border-radius: 4px;
+	-moz-border-radius: 4px;
+	-ms-border-radius: 4px;
+	-o-border-radius: 4px;
 }
