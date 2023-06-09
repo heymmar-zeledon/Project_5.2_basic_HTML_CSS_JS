@@ -7,7 +7,19 @@ body {
 
 
 header h1{
+	padding: 10px;
+	margin-bottom: 5px;
+	height: 50px;
+	border-radius: 10px;
+	-webkit-border-radius: 10px;
+	-moz-border-radius: 10px;
+	-ms-border-radius: 10px;
+	-o-border-radius: 10px;
 	padding-left: 10px;
+	background: -webkit-linear-gradient(left, #5CA861 , #BADFBC);
+	background: -o-linear-gradient(right, #5CA861 , #BADFBC);
+	background: -moz-linear-gradient(right, #5CA861 , #BADFBC);
+	background: linear-gradient(to right, #5CA861 , #BADFBC);
 }
 
 #menu-principal ul {
@@ -23,9 +35,15 @@ header h1{
 }
 
 #contenido {
+	background-image: url("/imagenes/imagen3.jpg");
+	border-radius: 6px;
 	margin-left: 200px;
 	padding: 10px;
 	color: black;
+	-webkit-border-radius: 6px;
+	-moz-border-radius: 6px;
+	-ms-border-radius: 6px;
+	-o-border-radius: 6px;
 }
 
 footer {
@@ -38,4 +56,11 @@ footer {
 
 #contenido p img {
 	float: right;
+	border: 2px #605B56;
+	margin: 3px;
+	border-radius: 4px;
+	-webkit-border-radius:;
+	-moz-border-radius:;
+	-ms-border-radius:;
+	-o-border-radius:;
 }
